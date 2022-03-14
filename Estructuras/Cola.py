@@ -31,14 +31,13 @@ class Cola:
             iterador = iterador.siguiente
             conteo += 1
 
-    def mostrarCola(self,cola):
+    def mostrarCola(self, cola):
         for elemento in cola:
             print("<<--------Cliente------->>")
             print(elemento.datos.cliente)
             print("<<---------Pizza-------->>")
             print(elemento.datos.pizza)
             print("--------------------------\n")
-
 
     # pop
     def desencolar(self):
